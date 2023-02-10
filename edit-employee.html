@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Employee</title>
+    <script src="JS/jquery-3.6.3.js"></script>
+    <script src="JS/edit.js"></script>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>Id :</td>
+        <td><input type="text" id="idTxt" disabled /></td>
+      </tr>
+      <tr>
+        <td>Name :</td>
+        <td><input type="text" id="nameTxt" required /></td>
+      </tr>
+      <tr>
+        <td>Age :</td>
+        <td><input type="text" id="ageTxt" required /></td>
+      </tr>
+      <tr>
+        <td>Salary :</td>
+        <td><input type="text" id="salaryTxt" required /></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <span id="error">Fill the required fields!</span>
+          <button class="submit" id="submit">submit</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
